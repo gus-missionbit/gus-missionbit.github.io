@@ -29,7 +29,7 @@ a.write{
     cursor: pointer;
     text-decoration: none;
     font-weight: 600;
-    color:#000;
+    color: rgb(17,47,65);;
 }
 
 body.content{
@@ -113,22 +113,21 @@ ul {
 	font-weight: 100;
     font-size: 44px;
 	text-align:	center;
-    color: #252940;
+    color: rgb(17,47,65);
 }
 .heading-sub{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-/*    color: #8d8d8d;*/
     margin: .25em;
     text-align: center;
-    color: #35748C;
+    color: rgb(8,148,161);
 }
 .known-lang{ 
     padding-top: 5px;
 	font-size: 15px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-    color: #35748C;
+    color: rgb(8,148,161);
 
 }
 .program-cta{
@@ -203,13 +202,9 @@ ul {
     bottom: 0;
     left: 0;
 }
-.typo{
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 1.23543;
-    letter-spacing: -.022em;
+.thum-title{
+    font-weight: 900;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
-    color: #fff;
-    cursor: auto;
 }
