@@ -1,6 +1,4 @@
-
 <body>
-
 <div class="bgimg-1">
   <div class="heading caption">
   <span class="border">Gustavo Rodriguez Salas</span>
@@ -59,28 +57,40 @@
   	<section class="background-margin">
   		<div class="full-background">
 		    <h1 class="heading">Gustavo Rodriguez Salas</h1>
-		    <div class="heading-sub">University of San Francisco</div>
-		    <figure><span>Computer Science </span></figure>
+		    <label for="show">
+		        <span><div class="heading-sub">University of San Francisco</div></span>
+		    </label>
+		    <input type=radio id="show" name="group">
+			   	<span id="content"><div class="bgimg-1">
+			   		<figure><span>Computer Science </span></figure>
+			   	</div>
+			   	</span>
+			<label for="hide">
+			    <span>- - --></span> 
+			</label>    
+			<input type=radio id="hide" name="group">
 		    <div class="half-bottom">
 				<img class="profile-picture" alt="profile picture" src="static/img/self.jpg"> 
 	    	</div>	
 		</div>
 		<div class="known-lang">
 		    I Write:<br>
+			<a class="write" href="#cLang">
 			<img alt="c icon" src="static/img/c_badge.png" style="vertical-align:middle; height:27px">
-			<a class="write" href="documents.html">C</a>
-			<img alt="html icon" src="static/img/html_badge.png" style="vertical-align:middle; height:27px"><a class="write" href="documents.html"> HTML/CSS </a>
-			<img alt="javascript icon" src="static/img/javascript_badge.png" style="vertical-align:middle; height:27px"><a class="write" href="documents.html"> Javascript</a>
-			<img alt="python icon" src="static/img/python_badge.png" style="vertical-align:middle; height:27px"><a class="write" href="documents.html"> Python</a>
+			C</a>
+			<a class="write" href="#htmlLang"> 
+			<img alt="html icon" src="static/img/html_badge.png" style="vertical-align:middle; height:27px">HTML/CSS</a>
+			<a class="write" href="#jsLang"> <img alt="javascript icon" src="static/img/javascript_badge.png" style="vertical-align:middle; height:27px">Javascript</a>
+			<a class="write" href="#pythonLang"><img alt="python icon" src="static/img/python_badge.png" style="vertical-align:middle; height:27px">Python</a>
 		</div>
 	</section>
 	<div> <!-- Needed DIV -->
 		<section class="program-list-section">
 			<div class="program-list-di">
 				<ul class="program-list">
-					<li class="program-item">
+					<li class="program-item" id="cLang">
 						<a class="program-link" href="program1.html">
-							<figure class="program-image">
+							<figure class="bgimg-3">
 								<img src="static/img/program1.jpg" style="width: 320px; height:300px;" class="fade">
 								<div class="program-cta">
 									<p class="thum-title">Program One</p>
@@ -89,7 +99,7 @@
 							
 						</a>
 					</li>
-					<li class="program-item">
+					<li class="program-item" id="htmlLang">
 						<a class="program-link" href="program2.html">
 							<figure class="program-image">
 								<img src="static/img/program2.jpg" style="width: 320px; height:300px;" class="fade">
@@ -100,7 +110,7 @@
 							
 						</a>
 					</li>
-					<li class="program-item">
+					<li class="program-item" id="jsLang">
 						<a class="program-link" href="program3.html">
 							<figure class="program-image">
 								<img src="static/img/program3.jpg" style="width: 320px; height:300px;" class="fade">
@@ -111,7 +121,7 @@
 							
 						</a>
 					</li>
-					<li class="program-item">
+					<li class="program-item" id="pythonLang">
 						<a class="program-link" href="program4.html">
 							<figure class="program-image">
 								<img src="static/img/program4.jpeg" style="width: 320px; height:300px;" class="fade">
@@ -122,7 +132,7 @@
 							
 						</a>
 					</li>
-					<li class="program-item">
+					<li class="program-item" id="javaLang">
 						<a class="program-link" href="program5.html">
 							<figure class="program-image">
 								<img src="static/img/program5.jpg" style="width: 320px; height:300px;" class="fade">
@@ -147,11 +157,6 @@
 				</ul>
 			</div>
 		</section>
-		<select>
-			<div>
-				<h1></h1>
-			</div>
-		</select>
 		<footer class="background-footer">
 			<h5>Gustavo Rodriguez Salas</h5>
 		</footer>

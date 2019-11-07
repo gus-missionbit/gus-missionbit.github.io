@@ -4,6 +4,21 @@ html, body {
     -webkit-text-size-adjust: 100%;
 }
 
+input#show, input#hide {
+    display:none;
+}
+
+span#content {
+    display:none;
+}
+input#show:checked ~ span#content {
+  display:block;
+}
+
+input#hide:checked ~ span#content {
+    display:none;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
       position: relative;
       opacity: 0.65;
@@ -24,7 +39,7 @@ html, body {
     }
 
     .bgimg-3 {
-      background-image: url("../img/brain.jpg");
+      background-image: url("../img/brain.jpeg");
       min-height: 400px;
     }
 
@@ -119,7 +134,7 @@ li {
     -webkit-box-align: center;
     align-items: center;
     font-family: Raleway, sans-serif;
-    background: rgb(242, 242, 243);
+    background: rgb(245, 245, 245);
     padding: 10px 5% 10px;
 }
 section{
